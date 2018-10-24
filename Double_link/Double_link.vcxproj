@@ -115,6 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="double_link.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dlink_test.c" />
+    <ClCompile Include="double_link.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
